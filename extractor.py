@@ -13,8 +13,8 @@ from ollama import Client
 # Configuration
 # -----------------------------
 MODEL = "deepseek-v3.1:671b-cloud"  # your Ollama model name
-INPUT_DIR = Path(r"C:\Users\cxrge\Downloads\teat NIME")          # folder of NIME PDFs
-OUTPUT_DIR = Path(r"C:\Users\cxrge\Downloads\teat NIME\out")          # output folder
+INPUT_DIR = Path(r"XXXXXXXXXXXXX")          # path: folder of NIME PDFs
+OUTPUT_DIR = Path(r"XXXXXXXXXXXXX")          # path: output folder
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Chunking by characters (simple + robust). Tune if needed.
@@ -349,4 +349,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
